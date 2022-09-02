@@ -7,10 +7,12 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #DFD2C5;
     font-family: Open Sans;
     font-weight: 500;
     color: black;
+
+
 
 }
 /* headings and logo */
@@ -73,51 +75,27 @@ h1 {
     text-align: center;
 }
 
+/* mix container*/
 
-/* box stuff*/
-
-.flex-container {
-    display: flex;
-    font-family: Oswald;
-
-    justify-content: center;
+.mix-container {
+    display: grid;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    justify-items: center;
+    align-self: center;
+    column-gap: 1.5em;
+    row-gap: 2.5em;
+    margin: auto;
+    background-color: white;
+    border-radius: 2em;
 }
 
-
-.one {
-    background-color: #804B1A;
-    color: #fff;
-
-    height: 350px;
-    min-width: 300px;
-
+.about-image {
+    width: 8em;
+    height: 8em;
+    padding: 0;
+    background-image: url('../image/IMG_3676.jpg');
+    background-size: cover;
 }
 
-.two {
-    background-color: #804B1A;
-    color: #fff;
-
-    height: 350px;
-    min-width: 300px;
-}
-
-.three {
-    background-color: #804B1A;
-    color: #fff;
-
-    height: 350px;
-    min-width: 300px;
-}
-
-#mix div {
-    color: #fafafa;
-background-color: #804B1A;
-width: 20%;
-height: 300px;
-float: right;
-padding: 30px 0 0 10px;
-text-align: center;
-border: 2px solid  white;
-box-sizing: border-box;
-margin-right: 250px;
-}
