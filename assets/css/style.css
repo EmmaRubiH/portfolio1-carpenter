@@ -7,12 +7,10 @@
 }
 
 body {
-    background-image: url('../image/brown-wooden-textured-flooring-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fff;
     font-family: Open Sans;
     font-weight: 500;
-    color: white;
+    color: #E57812;
 
 }
 /* headings and logo */
@@ -21,7 +19,7 @@ h1 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #fff;
+    color: #E57812;
     font-size: 70px; 
     margin-left: 30px;  
 }
@@ -64,13 +62,13 @@ h1 {
 
 
 .about-us {
-    color: #fff;
+    color: #E57812;
     font-family: Oswald;
     text-align: center;
 }
 
 #about-us p {
-    color: #fff;
+    color: black;
     font-family: Open Sans;
     text-align: center;
 }
