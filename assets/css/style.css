@@ -74,4 +74,37 @@ h1 {
 }
 
 
+/* box stuff*/
 
+.flex-container {
+    display: flex;
+    font-family: Oswald;
+
+    justify-content: center;
+}
+
+
+.one {
+    background-color: #804B1A;
+    color: #fff;
+
+    height: 350px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.two {
+    background-color: #804B1A;
+    color: #fff;
+
+    height: 350px;
+    min-width: 300px;
+}
+
+.three {
+    background-color: #804B1A;
+    color: #fff;
+
+    height: 350px;
+    min-width: 300px;
+}
