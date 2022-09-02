@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: #C4B6B4;
+    background-image: url('../image/brown-wooden-textured-flooring-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Open Sans;
     font-weight: 500;
     color: white;
@@ -19,7 +21,9 @@ h1 {
     font-family: Noto Serif Hong Kong;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #E57812;   
+    color: #fff;
+    font-size: 70px; 
+    margin-left: 30px;  
 }
 
 .box {
@@ -32,13 +36,10 @@ h1 {
   font-size: 25px;
 }
 
-#menu a:hover {
+.box div:hover {
     border-bottom: 1px solid #E57812;
 }
 
-.active {
-    border-bottom: 1px solid #E57812;
-}
 
 /* carpenter image */
 
