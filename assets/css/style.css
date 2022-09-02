@@ -22,33 +22,16 @@ h1 {
     color: #E57812;   
 }
 
-#logo {
-    float: right;
-    font-size: 250%;
-    margin-right: 20px;
-}
-/* navigation links */
-
-#menu {
-    font-size: 120%;
-    letter-spacing: 4;
+.box {
+    display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
+  justify-content: right;
+  margin-right: 30px;
+  font-size: 25px;
 }
 
-#menu, #logo {
-    line-height: 35px;
-}
-
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 25px;
-}
-
-
-#menu a {
-text-decoration: none;
-color: inherit;
-}
 #menu a:hover {
     border-bottom: 1px solid #E57812;
 }
