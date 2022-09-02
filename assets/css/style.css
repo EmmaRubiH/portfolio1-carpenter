@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     font-family: Open Sans;
     font-weight: 500;
-    color: #E57812;
+    color: black;
 
 }
 /* headings and logo */
@@ -90,7 +90,7 @@ h1 {
 
     height: 350px;
     min-width: 300px;
-    text-align: center;
+
 }
 
 .two {
@@ -107,4 +107,17 @@ h1 {
 
     height: 350px;
     min-width: 300px;
+}
+
+#mix div {
+    color: #fafafa;
+background-color: #804B1A;
+width: 20%;
+height: 300px;
+float: right;
+padding: 30px 0 0 10px;
+text-align: center;
+border: 2px solid  white;
+box-sizing: border-box;
+margin-right: 250px;
 }
