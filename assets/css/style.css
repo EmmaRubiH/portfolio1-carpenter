@@ -7,22 +7,22 @@
 }
 
 body {
-    background-color: #DFD2C5;
+    background-color: #C3BBB9;
     font-family: Open Sans;
     font-weight: 500;
-    color: black;
+    color: white;
 
 
 
 }
-/* headings and logo */
+/* headings and box */
 
-h1 {
+.header {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #E57812;
-    font-size: 70px; 
+    font-size: 50px; 
     margin-left: 30px;  
 }
 
@@ -33,7 +33,8 @@ h1 {
   column-gap: 2em;
   justify-content: right;
   margin-right: 30px;
-  font-size: 25px;
+  font-size: 22px;
+  color: #fff;
 }
 
 .box div:hover {
@@ -58,7 +59,7 @@ h1 {
     height: 500px;
     width: 100%;
     
-    background: url('../image/IMG_3201_jpg.jpg')no-repeat center center;
+    background: url('../image/carpenter-working-with-equipment-wooden-table-carpentry-shop_1418-2351.webp')no-repeat center center;
 }
 /* section about us */
 
@@ -67,6 +68,7 @@ h1 {
     color: #E57812;
     font-family: Oswald;
     text-align: center;
+    font-size: 30px;
 }
 
 #about-us p {
@@ -97,5 +99,9 @@ h1 {
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
+}
+
+.about-text {
+    color: black;
 }
 
