@@ -97,14 +97,48 @@ h1 {
 }
 
 .about-image {
-    width: 8em;
-    height: 8em;
+    width: 12em;
+    height: 12em;
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
+    border-radius: 50%;
+    
 }
+
+p {
+    color: black;
+    font-family: Oswald;
+    font-size: 32px;
+    
+}
+
+
+
 
 .about-text {
     color: black;
+    font-family: Open Sans;
 }
 
+
+
+.about-image-one {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/IMG_3676.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 40%;
+}
+
+.about-image-two {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/IMG_3677.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 200%;
+}
