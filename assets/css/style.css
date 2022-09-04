@@ -82,21 +82,18 @@ h1 {
 
 /* mix container*/
 
-.mix-container {
-    display: grid;
+
+.container {
+    display: flex;
     color: white;
     font-size: 1.4rem;
     padding: 1.5rem;
-    justify-items: center;
-    align-self: center;
-    column-gap: 1.5em;
-    row-gap: 2.5em;
     margin: auto;
     background-color: white;
     border-radius: 2em;
-}
 
-.about-image {
+}
+.items-one {
     width: 12em;
     height: 12em;
     padding: 0;
@@ -105,40 +102,20 @@ h1 {
     border-radius: 50%;
     
 }
-
-p {
-    color: black;
-    font-family: Oswald;
-    font-size: 32px;
-    
-}
-
-
-
-
-.about-text {
-    color: black;
-    font-family: Open Sans;
-}
-
-
-
-.about-image-one {
-    width: 12em;
-    height: 12em;
-    padding: 0;
-    background-image: url('../image/IMG_3676.jpg');
-    background-size: cover;
-    border-radius: 50%;
-    margin-right: 40%;
-}
-
-.about-image-two {
+.items-two {
     width: 12em;
     height: 12em;
     padding: 0;
     background-image: url('../image/IMG_3677.jpg');
     background-size: cover;
     border-radius: 50%;
-    margin-left: 200%;
+}
+
+.items-three {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/brown-wooden-floor.jpg');
+    background-size: cover;
+    border-radius: 50%;
 }
