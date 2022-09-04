@@ -99,7 +99,7 @@ h1 {
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 2em;
     
 }
 .items-two {
@@ -108,7 +108,7 @@ h1 {
     padding: 0;
     background-image: url('../image/IMG_3677.jpg');
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 2em;
 }
 
 .items-three {
@@ -117,5 +117,39 @@ h1 {
     padding: 0;
     background-image: url('../image/brown-wooden-floor.jpg');
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 2em;
+}
+
+.items-four {
+    background-color: #C3BBB9;
+    border-radius: 2em;
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    font-family: Open Sans;
+    color: black;
+}
+
+.items-five {
+    background-color: #C3BBB9;
+    border-radius: 2em;
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    font-family: Open Sans;
+    color: black;
+}
+
+.items-six {
+    background-color: #C3BBB9;
+    border-radius: 2em;
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    font-family: Open Sans;
+    color: black;
+}
+
+.item {
+    order: 3;
 }
