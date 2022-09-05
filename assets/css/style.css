@@ -8,7 +8,7 @@
 
 body {
     background-color: #C3BBB9;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-weight: 500;
     color: white;
 
@@ -18,10 +18,11 @@ body {
 /* headings and box */
 
 h1 {
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #E57812;   
+    color: #E57812; 
+    
 }
 
 .header {
@@ -80,7 +81,7 @@ h1 {
 
     .items-text {
         font-size: 140%;
-        font-family: Oswald;
+        font-family: 'Oswald';
         text-transform: uppercase;
         letter-spacing: 5px;
         text-align: center;
@@ -96,7 +97,7 @@ h1 {
         bottom: 50px;
         right: 150px;
 
-        border-radius: 50%;
+        border-radius: 2em 0;
 
         margin-right: 70%;
         
@@ -115,13 +116,13 @@ h1 {
 }
 #welcome h2 {
     font-size: 50px;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     letter-spacing: 2px;
 }
 #welcome p {
     font-size: 30px;
     letter-spacing: 1px;
-    font-family: Open sans;
+    font-family: 'Open sans';
 }
 
 /* section about us */
@@ -131,7 +132,7 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
     color: #E57812;
-    font-family: Oswald;
+    font-family: 'Oswald';
    
    border-color: rgb(127, 124, 124);
 
@@ -155,15 +156,15 @@ h1 {
     padding: 2rem;
     margin: auto;
     background-color: whitesmoke;
-    
+    font-family: 'Oswald';
     justify-content: space-evenly;
 
 }
 
 
 .items-one {
-    width: 25em;
-    height: 25em;
+    width: 22em;
+    height: 22em;
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
@@ -172,30 +173,27 @@ h1 {
 }
 
 .items-two {
-    width: 25em;
-    height: 25em;
+    width: 22em;
+    height: 22em;
     padding: 0;
     background-size: cover;
     border-radius: 1em;
 }
 
-.items-two h3 {
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    font-family: Oswald;
-    letter-spacing: 4px;
-}
-
 .items-two p {
     text-align: center;
     color: black;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    margin-top: 20%;
+    margin-right: 6%;
+    margin-left: 6%;
+    
 }
 
 .items-three {
-    width: 25em;
-    height: 25em;
+    width: 22em;
+    height: 22em;
     padding: 0;
     background-image: url('../image/IMG_3677.jpg');
     background-size: cover;
@@ -220,8 +218,8 @@ h1 {
 }
 
 .items-five {
-    width: 25em;
-    height: 25em;
+    width: 22em;
+    height: 22em;
     padding: 0;
     background-image: url('../image/brown-wooden-floor.jpg');
     background-size: cover;
@@ -242,7 +240,7 @@ h1 {
 footer {
     height: 150px;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     color: black;
     margin-top: 8%;
 }
