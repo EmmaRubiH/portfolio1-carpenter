@@ -25,7 +25,7 @@ h1 {
 }
 
 .header {
-    font-size: 400%; 
+    font-size: 450%; 
     margin-left: 30px; 
 }
 
@@ -69,6 +69,7 @@ h1 {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    
 
 }
 
@@ -103,40 +104,43 @@ h1 {
         position: absolute;
     }
         
+/* welcome */
 
+#welcome {
+    color: white;
+    background-color: rgb(127, 124, 124);
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+#welcome h2 {
+    font-size: 50px;
+    font-family: Open Sans;
+    letter-spacing: 2px;
+}
+#welcome p {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: Open sans;
+}
 
 /* section about us */
 
 #about-us {
-    font-size: 100%;
+    font-size: 30px;
     letter-spacing: 4px;
     text-align: center;
-
-    width: 500px;
-    height: 170px;
-
-    padding: 7%;
-
-    background-color: rgba(204, 107, 55, 0.7);
-
-    border-radius: 2em;
-
-    margin-left: 30%;
-
-}
-
-.about-us {
     color: #E57812;
     font-family: Oswald;
-    text-align: center;
-    font-size: 40px;
+   
+   border-color: rgb(127, 124, 124);
+
+    background-color: whitesmoke;
+
+    margin: auto;
+    position: relative;
 }
 
-#about-us p {
-    color: black;
-    font-family: Open Sans;
-    text-align: center;
-}
 
 /* mix container*/
 
@@ -145,44 +149,26 @@ h1 {
     display: flex;
     color: white;
     font-size: 1.4rem;
-    padding: 1.5rem;
+    padding: 2rem;
     margin: auto;
-    background-color: white;
-    border-radius: 2em;
+    background-color: whitesmoke;
+    
     justify-content: space-evenly;
 
 }
+
+
 .items-one {
-    width: 12em;
-    height: 12em;
+    width: 25em;
+    height: 25em;
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
-    border-radius: 2em;
+    border-radius: 1em;
     
 }
-.items-two {
-    width: 12em;
-    height: 12em;
-    padding: 0;
-    background-image: url('../image/IMG_3677.jpg');
-    background-size: cover;
-    border-radius: 2em;
-}
 
-.items-three {
-    width: 12em;
-    height: 12em;
-    padding: 0;
-    background-image: url('../image/brown-wooden-floor.jpg');
-    background-size: cover;
-    border-radius: 2em;
-}
-
-
-
-
-h3 {
+.items-one h3 {
     background-color: #C3BBB9;
     border-radius: 2em;
     width: 6em;
@@ -192,6 +178,88 @@ h3 {
     color: #fff;
     margin: 200px 50px;
 }
+
+.items-two {
+    width: 25em;
+    height: 25em;
+    padding: 0;
+    background-size: cover;
+    border-radius: 1em;
+}
+
+.items-two h3 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Oswald;
+    letter-spacing: 4px;
+}
+
+.items-two p {
+    text-align: center;
+    color: black;
+    letter-spacing: 4px;
+}
+
+.items-three {
+    width: 25em;
+    height: 25em;
+    padding: 0;
+    background-image: url('../image/IMG_3677.jpg');
+    background-size: cover;
+    border-radius: 1em;
+}
+
+.items-three h3 {
+    background-color: #C3BBB9;
+    border-radius: 2em;
+    width: 6em;
+    height: 1.5em;
+    text-align: center;
+    font-family: Open Sans;
+    color: #fff;
+    margin: 200px 50px;
+
+}
+
+.container-two {
+    display: flex;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    margin: auto;
+    background-color: whitesmoke;
+    
+    justify-content: space-around;
+
+}
+.items-four {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/brown-wooden-floor.jpg');
+    background-size: cover;
+    border-radius: 2em;
+}
+
+.items-five {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/brown-wooden-floor.jpg');
+    background-size: cover;
+    border-radius: 2em;
+}
+
+.items-six {
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    background-image: url('../image/brown-wooden-floor.jpg');
+    background-size: cover;
+    border-radius: 2em;
+}
+
 
 /* Footer */
 
