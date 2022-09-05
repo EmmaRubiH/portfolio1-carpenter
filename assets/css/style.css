@@ -91,6 +91,7 @@ h1 {
     margin: auto;
     background-color: white;
     border-radius: 2em;
+    justify-content: space-evenly;
 
 }
 .items-one {
@@ -120,36 +121,16 @@ h1 {
     border-radius: 2em;
 }
 
-.items-four {
+
+
+
+h3 {
     background-color: #C3BBB9;
     border-radius: 2em;
     width: 6em;
-    height: 2em;
+    height: 1.5em;
     text-align: center;
     font-family: Open Sans;
-    color: black;
-}
-
-.items-five {
-    background-color: #C3BBB9;
-    border-radius: 2em;
-    width: 6em;
-    height: 2em;
-    text-align: center;
-    font-family: Open Sans;
-    color: black;
-}
-
-.items-six {
-    background-color: #C3BBB9;
-    border-radius: 2em;
-    width: 6em;
-    height: 2em;
-    text-align: center;
-    font-family: Open Sans;
-    color: black;
-}
-
-.item {
-    order: 3;
+    color: #fff;
+    margin: 200px 50px;
 }
