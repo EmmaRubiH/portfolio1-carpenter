@@ -139,6 +139,9 @@ h1 {
 
     margin: auto;
     position: relative;
+
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 
@@ -166,17 +169,6 @@ h1 {
     background-size: cover;
     border-radius: 1em;
     
-}
-
-.items-one h3 {
-    background-color: #C3BBB9;
-    border-radius: 2em;
-    width: 6em;
-    height: 1.5em;
-    text-align: center;
-    font-family: Open Sans;
-    color: #fff;
-    margin: 200px 50px;
 }
 
 .items-two {
@@ -210,18 +202,6 @@ h1 {
     border-radius: 1em;
 }
 
-.items-three h3 {
-    background-color: #C3BBB9;
-    border-radius: 2em;
-    width: 6em;
-    height: 1.5em;
-    text-align: center;
-    font-family: Open Sans;
-    color: #fff;
-    margin: 200px 50px;
-
-}
-
 .container-two {
     display: flex;
     color: white;
@@ -237,14 +217,11 @@ h1 {
     width: 12em;
     height: 12em;
     padding: 0;
-    background-image: url('../image/brown-wooden-floor.jpg');
-    background-size: cover;
-    border-radius: 2em;
 }
 
 .items-five {
-    width: 12em;
-    height: 12em;
+    width: 25em;
+    height: 25em;
     padding: 0;
     background-image: url('../image/brown-wooden-floor.jpg');
     background-size: cover;
@@ -255,8 +232,7 @@ h1 {
     width: 12em;
     height: 12em;
     padding: 0;
-    background-image: url('../image/brown-wooden-floor.jpg');
-    background-size: cover;
+
     border-radius: 2em;
 }
 
@@ -268,9 +244,11 @@ footer {
     text-align: center;
     font-family: Open Sans;
     color: black;
+    margin-top: 8%;
 }
  #contact h4 {
     font-size: 25px;
+    color: #E57812;
  }
 
 #contact p {
