@@ -37,7 +37,7 @@ h1 {
   justify-content: right;
   margin-right: 30px;
   font-size: 22px;
-  color: #fff;
+  color: black;
 }
 
 .box div:hover {
@@ -64,6 +64,40 @@ h1 {
     
     background: url('../image/carpenter-working-with-equipment-wooden-table-carpentry-shop_1418-2351.webp')no-repeat center center;
 }
+
+    #cover-text, #cover-text h2 {
+        color: #fff;
+    }
+
+
+    #cover-text {
+        font-size: 140%;
+        font-family: Oswald;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+    
+        width: 250px;
+        height: 200px;
+    
+        padding-top: 40px;
+        padding-left: 10px;
+    
+        background-color: rgba(204, 107, 55, 0.7);
+    
+        bottom: 50px;
+        right: 150px;
+
+        border-radius: 50%;
+
+        margin-right: 70%;
+        
+    
+        position: absolute;
+    }
+        
+
+
 /* section about us */
 
 
