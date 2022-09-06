@@ -51,6 +51,11 @@ h1 {
  
 }
 
+.box a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .box div:hover {
     border-bottom: 1px solid #E57812;
 }
@@ -291,38 +296,70 @@ font-family: 'Oswald';
     margin-left: 25%;
 }
 
+.contact-info{
+    text-align: center;
+    font-family: 'Oswald';
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: #E57812;
+}
 
 /* Footer */
 
-footer {
-    height: 150px;
-    text-align: center;
+.flex-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
     font-family: 'Open Sans';
     color: black;
-    margin-top: 8%;
 }
- #contact h4 {
+
+
+.contact {
+    width: 30em;
+    height: 20em;
+    padding: 2px;
+    border: 4px ridge rgb(127, 124, 124);
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+ .contact h4 {
+    margin-top: 10%;
     font-size: 25px;
-    color: #E57812;
+    color: black;
+    font-family: 'Oswald';
  }
 
-#contact p {
-    padding-top: 10px;
-    width: 6%;
-    height: 100px;
-    margin-left: 47%;
+.contact p {
+   font-size: 20px;
 }
 
+.social-networks {
+    width: 30em;
+    height: 20em;
+    padding: 2px;
+    border: 4px ridge rgb(127, 124, 124);
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.social-networks h4{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 .social-networks li {
+
     display: inline;
 }
 
 .social-networks i {
-    font-size: 180%;
+    font-size: 300%;
     margin: 1%;
     padding: 2%;
-
 }
 
 
