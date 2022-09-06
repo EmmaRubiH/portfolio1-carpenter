@@ -14,36 +14,54 @@ body {
 }
 /* headings and box */
 
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #E57812;   
+    color: #E57812; 
 }
 
 .header {
     font-size: 450%; 
-    margin-left: 30px; 
+    
 }
 
 .box {
     display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   row-gap: 10px;
   column-gap: 2em;
   justify-content: right;
-  margin-right: 30px;
-  font-size: 22px;
+  
+  font-size: 30px;
   color: black;
+  margin-top: 10%;
+ 
 }
 
 .box div:hover {
+    border-bottom: 1px solid #E57812;
+}
+.active {
     border-bottom: 1px solid #E57812;
 }
 
  i {
     color: #E57812;
 }
+
 
 /* carpenter image */
 
@@ -74,6 +92,9 @@ h1 {
 
 
     .items-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         font-size: 140%;
         font-family: 'Oswald';
         text-transform: uppercase;
@@ -89,10 +110,11 @@ h1 {
         background-color: rgba(84, 81, 80, 0.7);
         border-radius: 2em 0;
         bottom: 50px;
-        left: 150px;
+        left: 75px;
 
         position: absolute;
     }
+
         
 /* welcome */
 
@@ -129,9 +151,6 @@ h1 {
 
     margin: auto;
     position: relative;
-
-    text-decoration: underline;
-    text-decoration-color: black;
 }
 
 
