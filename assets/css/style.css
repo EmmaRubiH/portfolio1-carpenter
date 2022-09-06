@@ -11,9 +11,6 @@ body {
     font-family: 'Open Sans';
     font-weight: 500;
     color: white;
-
-
-
 }
 /* headings and box */
 
@@ -21,8 +18,7 @@ h1 {
     font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #E57812; 
-    
+    color: #E57812;   
 }
 
 .header {
@@ -70,8 +66,6 @@ h1 {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
-
 }
 
     .items-text, .items-text h2 {
@@ -93,15 +87,10 @@ h1 {
         padding-left: 10px;
     
         background-color: rgba(84, 81, 80, 0.7);
-    
-        bottom: 50px;
-        right: 150px;
-
         border-radius: 2em 0;
+        bottom: 50px;
+        left: 150px;
 
-        margin-right: 70%;
-        
-    
         position: absolute;
     }
         
@@ -146,20 +135,21 @@ h1 {
 }
 
 
-/* mix container*/
+/* mix container for about us*/
 
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     color: white;
     font-size: 1.4rem;
     padding: 2rem;
     margin: auto;
     background-color: whitesmoke;
     font-family: 'Oswald';
-    justify-content: space-evenly;
-
+    justify-content: space-around;
 }
+
 
 
 .items-one {
@@ -168,8 +158,7 @@ h1 {
     padding: 0;
     background-image: url('../image/IMG_3676.jpg');
     background-size: cover;
-    border-radius: 1em;
-    
+    border-radius: 1em;   
 }
 
 .items-two {
@@ -203,6 +192,7 @@ h1 {
 
 .container-two {
     display: flex;
+    flex-wrap: wrap;
     color: white;
     font-size: 1.4rem;
     padding: 1.5rem;
@@ -210,7 +200,7 @@ h1 {
     background-color: whitesmoke;
     font-family: 'Open Sans';
     
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 .items-four {
@@ -237,9 +227,9 @@ h1 {
     letter-spacing: 3px;
     margin-top: 6%;
     margin-right: 6%;
-    margin-left: 6%;
-    
+    margin-left: 6%;  
 }
+
 .items-four p {
     text-align: center;
     color: black;
@@ -248,11 +238,13 @@ h1 {
 
 .items-five {
     width: 22em;
-    height: 22em;
+    height: 22.5em;
     padding: 0;
     background-image: url('../image/IMG_3695.jpg');
     background-size: cover;
     border-radius: 1em;
+    margin: 10px;
+    
 }
 
 .items-six {
