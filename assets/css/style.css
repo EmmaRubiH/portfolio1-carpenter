@@ -92,7 +92,7 @@ h1 {
         padding-top: 40px;
         padding-left: 10px;
     
-        background-color: rgba(204, 107, 55, 0.7);
+        background-color: rgba(84, 81, 80, 0.7);
     
         bottom: 50px;
         right: 150px;
@@ -208,6 +208,7 @@ h1 {
     padding: 1.5rem;
     margin: auto;
     background-color: whitesmoke;
+    font-family: 'Open Sans';
     
     justify-content: space-evenly;
 
@@ -219,7 +220,6 @@ h1 {
     background-color: whitesmoke;
     border: 4px dotted rgb(127, 124, 124);
     border-radius: 1em;
-    font-family: 'Open Sans';
     
 }
 
@@ -244,7 +244,6 @@ h1 {
     text-align: center;
     color: black;
     letter-spacing: 3px;
-    font
 }
 
 .items-five {
@@ -263,7 +262,22 @@ h1 {
     background-color: whitesmoke;
     border: 4px dotted rgb(127, 124, 124);
     border-radius: 1em;
-    
+}
+
+.items-six h3 {
+    text-align: center;
+    color: black;
+    margin-top: 15%;
+    margin-right: 6%;
+    margin-left: 6%;
+font-family: 'Oswald';
+}
+.items-six li {
+    text-align: center;
+    color: black;
+    margin-top: 4%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 
