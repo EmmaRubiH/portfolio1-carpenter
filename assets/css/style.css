@@ -315,7 +315,7 @@ font-family: 'Oswald';
 }
 
 
-.contact {
+.contact-address {
     width: 30em;
     height: 20em;
     padding: 2px;
@@ -324,14 +324,14 @@ font-family: 'Oswald';
     font-family: 'Open Sans';
 }
 
- .contact h4 {
+ .contact-address h4 {
     margin-top: 10%;
     font-size: 25px;
     color: black;
     font-family: 'Oswald';
  }
 
-.contact p {
+.contact-address p {
    font-size: 20px;
 }
 

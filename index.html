@@ -18,17 +18,16 @@
 
     <header class="box-container">
         <a href="index.html" style="text-decoration:none">
-
-            <h1 class="header">Haga snickerier</h1>
-
-        </a>
-
+        <h1 class="header">Haga snickerier</h1>
+     </a>
 
         <nav>
-            <div class="box">
-                <div>Home <i class="fas fa-home"></i></div>
-                <div>About Us <i class="fas fa-hammer"></i></div>
-                <div>contact <i class="fas fa-phone"></i></div>
+            <div class="box" class="nav">
+                <div><a href="index.html">Home</a><i class="fas fa-home"></i></div>
+                <div>
+                  <a href="#about" class="btn">About Us</a><i class="fas fa-hammer"></i></div>
+                <div>
+                  <a href="#contact" class="btn">Contact</a><i class="fas fa-phone"></i></div>
             </div>
         </nav>
     </header>
@@ -58,6 +57,7 @@
 
     <!-- layout for contact about us -->
     <section>
+        <div class="about" id="about"></div>
         <div id="about-us">
             <h2>About Us</h2>
         </div>
@@ -109,24 +109,20 @@
 
         </div>
     </section>
-
-
     <br>
     
     <!-- Footer and contact start here -->
 
     <footer>
+      <div class="contact" id="contact"></div>
         <h2 class="contact-info">Contact Information</h2>
     <br>
       <div class="flex-contact">
-        <br>
-        <div class="contact">
-            <h4>
-                Address:
+        <div class="contact-address">
+            <h4> Address:
             </h4>
             <br>
-            <p>
-                Haga Snickerier
+            <p> Haga Snickerier
              <br>
                 Märsta Haga,
                 <br>
@@ -138,8 +134,7 @@
         <br>
         <!-- Social networks -->
         <ul class="social-networks">
-            <h4>
-                Social Networks:
+            <h4>Social Networks:
             </h4>
             <li>
                 <a href="https://www.instagram.com/hagasnickerier/" target="_blank" rel="noopener"
