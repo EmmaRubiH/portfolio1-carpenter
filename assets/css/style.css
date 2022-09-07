@@ -327,7 +327,7 @@ font-family: 'Oswald';
     font-family: 'Open Sans';
 }
 
- .contact-address h4 {
+ .contact-address div {
     margin-top: 10%;
     font-size: 25px;
     color: black;
@@ -346,12 +346,15 @@ font-family: 'Oswald';
     font-family: 'Open Sans';
     text-align: center;
 }
-.social-networks h4{
+.social-networks .networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-family: 'Oswald';
     font-size: 25px;
     color: black;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .social-networks li {
