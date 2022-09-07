@@ -362,4 +362,14 @@ font-family: 'Oswald';
     padding: 2%;
 }
 
+.footer-end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(84, 81, 80, 0.7);
+    color: black;
+    font-family: 'Open Sans';
+    align-items: center;
+}
+
 
