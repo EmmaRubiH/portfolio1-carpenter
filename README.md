@@ -45,7 +45,36 @@ And also information about the company.
 
 ## Testing
 
-* i tested
+* I tested that this page works in different browsers: Chrome, Firefox, Safari.
+
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+* I confirmed that the navigation, header, home, about us and contact text are all readable and easy to understand.
+
+* I have confirmed that the form works.
+
+## Bugs
+
+### Solved bugs
+
+* I hade problems with the img in style.css. I could not get it upp in the priview windom.
+
+* I discovered that my img file path was not in the correct order.
+./assets/image/css/style.css
+
+* I change the place the place and then I could get it right in my priview window.
+./assets/image/jpg
+
+## Validator Test
+
+* HTML
+  * No
+* CSS
+  * No
+* Accessibility
+  * I confirmed
+
+### 
 
 
 
