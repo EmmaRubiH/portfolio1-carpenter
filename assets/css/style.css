@@ -81,14 +81,16 @@ h1 {
 }
 
 .items-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    margin-top: 0;
+    
 
-    background: url('../image/carpenter-working-with-equipment-wooden-table-carpentry-shop_1418-2351.webp')no-repeat center center;
+    background: url('../image/snickeri.JPG') no-repeat center center;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 0;
     background-size: cover;
+    
+
 }
 
     .items-text, .items-text h2 {
