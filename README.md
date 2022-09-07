@@ -15,7 +15,7 @@ And also information about the company.
   * Featured at the top of the page in the navigation shows carpenter site's name: Haga Snickerier that links to the top of the page.
   * On the right you see other navigation links: Home, About us and Contact. These link to different section of the same page.
 
-
+![navigation](./assets/image/head.png)
 
 
 * Special Carpentry
@@ -28,6 +28,8 @@ And also information about the company.
 
   * This is a section on the page to draw attention to the user. Text that will make the users curious.
   * With that dark and light color is a good contrast for the eye.
+  
+ ![welcome](./assets/image/welcome.png)
 
 * The About Us section
 
@@ -39,6 +41,7 @@ And also information about the company.
   * In one block the users will find adress to the company.
   * In the other block the users will find two social media icons to Facebook and Instagram.
 
+![contact](./assets/image/contact.png)
 
 ## Testing
 
