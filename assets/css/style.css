@@ -115,7 +115,7 @@ h1 {
         background-color: rgba(84, 81, 80, 0.7);
         border-radius: 2em 0;
         bottom: 50px;
-        left: 75px;
+        left: 33px;
 
         position: absolute;
     }
@@ -238,10 +238,13 @@ h1 {
 }
 
 .items-four i {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: black;
    font-size: 250%;
    margin: 10%;
-   margin-left: 210px;
+   margin-right: 20px;
    padding: 2%;
 }
 
