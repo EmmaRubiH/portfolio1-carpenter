@@ -11,8 +11,7 @@ And also information about the company.
 
 
 ## Features
-
-* Navigation Bar
+* **Navigation Bar**
 
   * Featured at the top of the page in the navigation shows carpenter site's name: Haga Snickerier that links to the top of the page.
   * On the right you see other navigation links: Home, About us and Contact. These link to different section of the same page.
@@ -90,7 +89,7 @@ And also information about the company.
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page provide the link to the completed website.
 
-  The live link can be found here - 
+  The live link can be found here - [Carpenter page](https://emmarubih.github.io/portfolio1-carpenter/)
   
 
 
