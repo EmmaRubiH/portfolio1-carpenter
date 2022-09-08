@@ -1,11 +1,13 @@
 # Carpenter Website Haga Snickerier
 
 This Haga Snickerier website is a page for carpentry.
-It's a website for special carpentry our fine woods.
+It's a website for special carpentry and fine woods.
 
 Users of this website will be able to find information about a small company that specialized in wooden crafts.
 Here the users can see what the company specialized in. 
 And also information about the company.
+
+![am-i](./assets/image/am-i-responsive.png)
 
 
 ## Features
@@ -68,9 +70,9 @@ And also information about the company.
 ## Validator Test
 
 * HTML
-  * No
+  * No errors were returned when passing trough the official 
 * CSS
-  * No
+  * No errors were found when passing through the official
 * Accessibility
   * I confirmed
 
