@@ -28,8 +28,9 @@ h1 {
     flex-direction: row;
     font-family: 'Oswald';
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #E57812; 
+    margin: 2px;
 }
 
 .header {
