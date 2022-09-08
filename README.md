@@ -19,21 +19,21 @@ And also information about the company.
 ![navigation](./assets/image/head.png)
 
 
-* Special Carpentry
+* **Special Carpentry**
 
   * The section includes a photograph with text overlay. So the users can se exactly which location this site would be applicable to.
   * this animation is to grab the attention to that this site is about Special Carpentry.
 
 ![Special-Carpentry](./assets/image/first-section.png)
 
-* Welcome to Haga Snickerier
+* **Welcome to Haga Snickerier**
 
   * This is a section on the page to draw attention to the user. Text that will make the users curious.
   * With that dark and light color is a good contrast for the eye.
   
  ![welcome](./assets/image/welcome.png)
 
-* The About Us section
+* **The About Us section**
 
   * the about us section gives details about what the company stands for, what they specialized in and information about the person how owns the company.
   * This section shows the user information about the company and pictures that maybe draw there attention.
@@ -41,7 +41,7 @@ And also information about the company.
 
   ![about-us](./assets/image/about%20us.png)
 
-* Contact Information
+* **Contact Information**
   * The contact section includes two blocks with information to the company Haga Snickerier.
   * In one block the users will find adress to the company.
   * In the other block the users will find two social media icons to Facebook and Instagram.
@@ -72,11 +72,11 @@ And also information about the company.
 
 ## Validator Test
 
-* HTML
+* **HTML**
   * No errors were returned when passing trough the official 
-* CSS
+* **CSS**
   * No errors were found when passing through the official
-* Accessibility
+* **Accessibility**
   * I confirmed that the colors and donts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![validator](./assets/image/Ska%CC%88rmavbild%202022-09-08%20kl.%2013.56.29.png)
@@ -84,14 +84,30 @@ And also information about the company.
 
 ## Deployment
 
-* The site was deployed to GITHUB pages. The steps to deploy are as follows
+* **The site was deployed to GITHUB pages. The steps to deploy are as follows**
   * In GITHUB repository, navigate ro the setting tab
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page provide the link to the completed website.
 
-  The live link can be found here - [Carpenter page](https://emmarubih.github.io/portfolio1-carpenter/)
+  The live link can be found here - [Carpenter Site](https://emmarubih.github.io/portfolio1-carpenter/)
   
 
+## Credits
+
+### Content
+
+* The code to make the nav bar taken from love running project, but i made it in flexbox instead.
+
+* The section special carpentry i got the idee frome love running. I mixed it with flexbox in my own way.
+
+### Media
+* The image from the section special carpentry i got from - 
+
+* the icons in Nav, about us and footer was taken from - [Font Awesome](https://fontawesome.com/)
+
+* the fonts in the site was taken from [Google Fonts](https://fonts.google.com/)
+
+* The social networks is taken from [Facebook](https://facebook.com/) and [Instagram](https://instagram.com)
 
 
 
