@@ -317,6 +317,30 @@ font-size: 150%;
     color: black;
 }
 
+/* Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(127, 124, 124);
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
 /* Footer */
 
 .flex-contact {
