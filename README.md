@@ -25,6 +25,7 @@ And also information about the company.
   * The section includes a photograph with text overlay. So the users can se exactly which location this site would be applicable to.
   * this animation is to grab the attention to that this site is about Special Carpentry.
 
+![Special-Carpentry](./assets/image/first-section.png)
 
 * Welcome to Haga Snickerier
 
@@ -37,6 +38,9 @@ And also information about the company.
 
   * the about us section gives details about what the company stands for, what they specialized in and information about the person how owns the company.
   * This section shows the user information about the company and pictures that maybe draw there attention.
+
+
+  ![about-us](./assets/image/about%20us.png)
 
 * Contact Information
   * The contact section includes two blocks with information to the company Haga Snickerier.
@@ -74,9 +78,20 @@ And also information about the company.
 * CSS
   * No errors were found when passing through the official
 * Accessibility
-  * I confirmed
+  * I confirmed that the colors and donts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-### 
+![validator](./assets/image/Ska%CC%88rmavbild%202022-09-08%20kl.%2013.56.29.png)
+
+
+## Deployment
+
+* The site was deployed to GITHUB pages. The steps to deploy are as follows
+  * In GITHUB repository, navigate ro the setting tab
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page provide the link to the completed website.
+
+  The live link can be found here - 
+  
 
 
 
