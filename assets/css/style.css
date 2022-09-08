@@ -29,7 +29,7 @@ h1 {
     font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E57812; 
+    color: #DB4914; 
     margin: 2px;
 }
 
@@ -58,14 +58,14 @@ h1 {
 }
 
 .box div:hover {
-    border-bottom: 1px solid #E57812;
+    border-bottom: 1px solid #DB4914;
 }
 .active {
-    border-bottom: 1px solid #E57812;
+    border-bottom: 1px solid #DB4914;
 }
 
  i {
-    color: #E57812;
+    color: #DB4914;
 }
 
 
@@ -151,7 +151,7 @@ h1 {
     font-size: 30px;
     letter-spacing: 4px;
     text-align: center;
-    color: #E57812;
+    color: #DB4914;
     font-family: 'Oswald';
    
    border-color: rgb(127, 124, 124);
@@ -314,7 +314,7 @@ font-size: 150%;
     font-family: 'Oswald';
     letter-spacing: 4px;
     font-size: 40px;
-    color: #E57812;
+    color: #DB4914;
 }
 
 /* Footer */
