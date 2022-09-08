@@ -101,7 +101,7 @@ And also information about the company.
 * The section special carpentry i got the idee frome love running. I mixed it with flexbox in my own way.
 
 ### Media
-* The image from the section special carpentry i got from - 
+* The image from the section special carpentry was taken from - https://images.staticjw.com/sni/9922/snickare1.jpg
 
 * the icons in Nav, about us and footer was taken from - [Font Awesome](https://fontawesome.com/)
 
