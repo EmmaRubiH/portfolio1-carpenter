@@ -326,21 +326,41 @@ font-size: 150%;
 
 /* Gallery */
 
-.how {
+.icon-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     background-color: rgb(127, 124, 124);
     text-align: center; 
-
 }
+.icon-container div:first-child {
+    font-family: 'Oswald';
+    font-size: 40px;
+    color: black;
+}
+.icon-container p i {
+    color: black;
+    font-size: 60px;
+}
+
+
+.how {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(127, 124, 124);
+    text-align: center; 
+}
+
 
 .how-one {
     width: 50em;
     height: 20em;
     padding: 4px;
     background-color: whitesmoke;
-    border: 4px hidden rgb(127, 124, 124);
+    border: 1px hidden rgb(127, 124, 124);
     border-radius: 1em;
     margin: 10px;
     color: black;
@@ -363,7 +383,7 @@ font-size: 150%;
     height: 20em;
     padding: 4px;
     background-color: whitesmoke;
-    border: 4px hidden rgb(127, 124, 124);
+    border: 1px hidden rgb(127, 124, 124);
     border-radius: 1em;
     margin: 10px;
     color: black;
