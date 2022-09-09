@@ -243,8 +243,6 @@ h1 {
     border-radius: 1em;
     font-family: 'Open Sans';
     margin: 10px;
-    
-    
 }
 
 .items-four i {
@@ -368,6 +366,7 @@ font-size: 150%;
     border-radius: 1em;
     margin: 10px;
     color: black;
+    overflow:visible;
 }
 
 .how-one h3 {
@@ -393,7 +392,8 @@ font-size: 150%;
     border: 1px hidden rgb(127, 124, 124);
     border-radius: 1em;
     margin: 10px;
-    color: black;  
+    color: black;
+    overflow:  auto;  
 }
 
 .how-two h3 {
@@ -420,12 +420,15 @@ footer {
 }
 .flex-contact {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around; 
+    align-items: center;
     font-family: 'Open Sans';
     color: black;
     background-color: whitesmoke;
 }
+
+
 
 
 .contact-address {
@@ -491,4 +494,59 @@ footer {
 }
 
 
+@media screen and (max-width: 1030px) {
+    .flex-contact {
+        flex-direction: column;
+    }
+
+    .contact-address {
+        width: 20em;
+        height: 20em;
+    }
+
+    .social-networks {
+        width: 20em;
+        height: 20em;
+    }
+  }
+
+  @media screen and (max-width: 670px) {
+    .items-four p {
+        font-size: 16px;
+    }
+
+    .icon-container p {
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .icon-container p {
+        font-size: 1px;
+    }
+
+    .how-one p {
+        font-size: 15px;
+    }
+
+    .how-two p {
+        font-size: 15px;
+    }
+
+    #welcome h2 {
+        font-size: 40px;
+    }
+
+    #welcome p {
+        font-size: 25px;
+    }
+
+    .header {
+        font-size: 50px;
+    }
+
+    .box  div {
+        font-size: 30px;
+    }
+  }
 
