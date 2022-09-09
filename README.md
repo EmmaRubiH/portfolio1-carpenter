@@ -16,7 +16,7 @@ And also information about the company.
   * Featured at the top of the page in the navigation shows carpenter site's name: Haga Snickerier that links to the top of the page.
   * On the right you see other navigation links: Home, About us and Contact. These link to different section of the same page.
 
-![navigation](./assets/image/head.png)
+![navigation](./assets/image/Ska%CC%88rmavbild%202022-09-09%20kl.%2010.43.08.png)
 
 
 * **Special Carpentry**
@@ -41,12 +41,20 @@ And also information about the company.
 
   ![about-us](./assets/image/about%20us.png)
 
+  * How
+    * The how section includes two block with info about, how the prosses goes in the company.
+    * explaned with icons and text.
+    * wich order the prosses goes.
+
+ ![how](./assets/image/Ska%CC%88rmavbild%202022-09-09%20kl.%2010.43.32.png)   
+
 * **Contact Information**
   * The contact section includes two blocks with information to the company Haga Snickerier.
   * In one block the users will find adress to the company.
   * In the other block the users will find two social media icons to Facebook and Instagram.
 
-![contact](./assets/image/contact.png)
+
+![contact](./assets/image/Ska%CC%88rmavbild%202022-09-09%20kl.%2010.46.14.png)
 
 ## Testing
 

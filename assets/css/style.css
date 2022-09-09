@@ -340,12 +340,7 @@ font-size: 150%;
     color: black;
     margin: 2%;
 }
-.icon-container p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 60px;
-}
+
 .icon-container p i {
     
     color: black;
