@@ -7,7 +7,7 @@ Users of this website will be able to find information about a small company tha
 Here the users can see what the company specialized in. 
 And also information about the company.
 
-![am-i](./assets/image/am-i-responsive.png)
+![am-i](./assets/image/Ska%CC%88rmavbild%202022-09-09%20kl.%2012.11.13.png)
 
 
 ## Features
@@ -40,11 +40,13 @@ And also information about the company.
 
 
   ![about-us](./assets/image/about%20us.png)
+  
+ * How
+   * The how section includes two block with info about, how the prosses goes in the company.
+   * Explaned with icons and text.
+   * And ordered how the prosses goes.
 
-  * How
-    * The how section includes two block with info about, how the prosses goes in the company.
-    * explaned with icons and text.
-    * wich order the prosses goes.
+
 
  ![how](./assets/image/Ska%CC%88rmavbild%202022-09-09%20kl.%2010.43.32.png)   
 
@@ -81,9 +83,9 @@ And also information about the company.
 ## Validator Test
 
 * **HTML**
-  * No errors were returned when passing trough the official 
+  * No errors were returned when passing trough the official [The W3C Validator](https://validator.w3.org/#validate_by_input)
 * **CSS**
-  * No errors were found when passing through the official
+  * No errors were found when passing through the official [The CSS Validator jigsaw](https://jigsaw.w3.org/css-validator/)
 * **Accessibility**
   * I confirmed that the colors and donts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
