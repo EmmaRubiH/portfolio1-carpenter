@@ -32,10 +32,12 @@ h1 {
     letter-spacing: 2px;
     color: black; 
     margin: 2px;
+
 }
 
 .header {
     font-size: 400%; 
+    justify-content: center;
     
 }
 
@@ -338,6 +340,12 @@ font-size: 150%;
     color: black;
     margin: 2%;
 }
+.icon-container p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px;
+}
 .icon-container p i {
     
     color: black;
@@ -491,6 +499,7 @@ footer {
     color: white;
     font-family: 'Open Sans';
     align-items: center;
+    font-size: 25px;
 }
 
 
@@ -522,7 +531,8 @@ footer {
 
   @media screen and (max-width: 375px) {
     .icon-container p {
-        font-size: 1px;
+        font-size: 0.5px;
+        margin: 10px;
     }
 
     .how-one p {
