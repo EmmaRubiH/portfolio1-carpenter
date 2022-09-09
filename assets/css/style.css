@@ -555,3 +555,11 @@ footer {
     }
   }
 
+  @media screen and (max-width: 1600px) {
+    .container-two {
+        font-size: 22px;
+        padding: 2rem;
+        flex-wrap: nowrap;
+    }
+  }
+
