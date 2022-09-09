@@ -514,7 +514,7 @@ footer {
     }
   }
 
-  @media screen and (max-width: 670px) {
+  @media screen and (max-width: 768px) {
     .items-four p {
         font-size: 16px;
     }
@@ -522,16 +522,30 @@ footer {
     .icon-container p {
         font-size: 20px;
     }
+
+    .box {
+        flex-wrap: nowrap;
+        column-gap: 1em;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-two {
+        flex-direction: column;
+        align-items: center;
+    }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
     .icon-container p {
         font-size: 0.5px;
         margin: 10px;
     }
 
     .how-one p {
-        font-size: 15px;
+        font-size: 13.5px;
     }
 
     .how-two p {
@@ -547,13 +561,36 @@ footer {
     }
 
     .header {
-        font-size: 50px;
+        font-size: 37px;
     }
 
-    .box  div {
-        font-size: 30px;
+    .box {
+        font-size: 18px;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 165px;
     }
+
+   #welcome {
+    padding: 2px;
+   }
+
+   
+   
+   
   }
+
+/* laptop*/
+
+  @media screen and (max-width: 1280px) {
+   .container {
+    font-size: 22px;
+        padding: 2rem;
+        flex-wrap: nowrap;
+   }
+    
+  }
+  /* desctop*/
 
   @media screen and (max-width: 1600px) {
     .container-two {
